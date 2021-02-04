@@ -7,6 +7,7 @@ if(MSVC)
     m
     )
 else(MSVC)
+endif()
 
 set(COMPILE_OPTION)
 set(SRC 
@@ -15,7 +16,6 @@ set(SRC
   cpp/Ooura_FFT.h
   cpp/PostProcessor.h
   cpp/STFT.h
-  WAV/WAV.cpp
   WAV/WAV.h
   )
 
